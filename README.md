@@ -3,4 +3,4 @@
 - Working on cutting down remaining code to bare minimum needed to get sensor fused data (accelerations, angular rates, and euler angles)
 - Will be integrating with a nonlinear control scheme for quadrotor using a optical flow camera with the Intel Edison
 - Eventually code will be used on an Up-Board, integrating one of the above IMU's, an Intel Realsense depth camera, and an optical flow camera as peripherals
-- Goal is to have a working semi-autonomous quadrotor. Give it a direction and speed and it will go in given direction while avoiding obstacles it detects using the realsense camera
+- Goal is to have a working semi-autonomous quadrotor, which only needs a direction and speed. Should go in desired direction at desired speed while avoiding any obstacles.
